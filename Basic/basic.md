@@ -1,5 +1,4 @@
-# Basic
-- Javascript의 초초기본
+# Basic Part
 
 <br/>
 
