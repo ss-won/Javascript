@@ -1,7 +1,6 @@
 # Basic
 - Javascript의 초초기본
->   [주요특징](https://github.com/ss-won/Javascript/tree/master/Basic#주요특징)
->   [기본문법](https://github.com/ss-won/TypeScript/tree/master/Basic#기본문법)
+
 <br/>
 
 ## 주요특징
