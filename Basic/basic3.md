@@ -36,8 +36,9 @@
     - case문이 끝날때마다 break를 통해 끝났음을 명시해 주어야 한다.
 
 ### 반복문
+<img src="https://t1.daumcdn.net/cfile/tistory/2344D93A582167802D" width="400" height="300" alt="반복문구조"></img></br> 
+> 이미지 출처 : 구글, 이미지 썸네일
 - 특정 작업을 반복적으로 할때 사용하는 구문
-<img src="https://www.google.com/url?sa=i&url=http%3A%2F%2Fkocw.xcache.kinxcdn.com%2FKOCW%2Fdocument%2F2016%2Fkpu%2Fparkjeongmin0520%2F7.pdf&psig=AOvVaw3gEtRVvjqfy_4_l0aBlhTF&ust=1590848603543000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNj1iISj2ekCFQAAAAAdAAAAABAd" width="100" height="100" alt="반복문구조"></img>
 - 반복문의 종류는 크게 `for`문과 `while`문이 있고, 이외에는 객체의 prototype 내장 반복함수들이 있다.
     - `for문` : 보통 반복할 횟수가 정해져 있을때 쓴다.
         - 제한 조건이 false가 될때까지 반복자를 바꾸어 반복한다.
