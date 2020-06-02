@@ -15,6 +15,7 @@
 ```javascript
     let arr = [1,2,3,4,5];
     arr.slice(2,3);//return [3]
+
     /* shallow copy 예제 */
     let arr2 = [1,2,3,[1,2],4];
     arr.slice(3,4);//return [[1,2]]
@@ -35,36 +36,59 @@
 ### 3. 다수의 배열 병합하기
 
 ### 4. 특정 원소값(인덱스, 값) 찾기
--  `indexOf(val)`
-    - 특정 값 val과 일치하는 요소가 있으면 해당 인덱스 값을 반환, 없으면 -1을 반환한다.
-- `findIndex(callback)`
-    - 특정 조건을 만족하는 요소들의 인덱스를 반환한다.
-- `find(condition)`
+-  `indexOf(searchElement[, fromIndex])`
+    - 특정 값 val과 일치하는 첫번째 요소에 대한 인덱스 값을 반환, 없으면 -1을 반환한다.
+    - `===`엄격한 동등성을 사용하여 배열의 요소들과 비교한다.
+    - searchElement: 배열에서 찾을 요소의 값, fromIndex: 검색을 시작할 인덱스로 배열의 크기보다 큰 인덱스가 입력되는 경우 -1이 반환된다. 음수로 주어지면 배열 끝에서부터 offset값으로 사용되고, offset값이 배열의 크기보다 커지면 배열 전체를 탐색하는 기본 Case와 같다. []가 붙은 것은 Optional값이다.
+- `findIndex(callback(element[, index[, array]])[, thisArg])`
+    - 특정 조건을 만족하는 배열의 첫번째 요소에 대한 인덱스를 반환한다. 만족하는 요소가 없으면 -1을 반환한다.
+    - element: 배열의 요소값, index: 배열의 인덱스값, array: find를 call한 배열본체, thisArg : callback이 호출될때 this로 사용할 객체이고 []가 붙은 것은 Optional값이다.
+```javascript
+    const arr = [5, 12, 8, 130, 44];
+    const found = arr.findIndex(val => val > 10);
+    console.log(found);//1
+```
+- `find(callback(element[, index[, array]])[, thisArg])`
     - 특정 조건을 만족하는 첫번째 요소를 반환한다.
-- `includes(val)`
-    - 특정 값 val이 배열에 존재하면 true, 아니면 false를 반환한다.
+    - element: 배열의 요소값, index: 배열의 인덱스값, array: find를 call한 배열본체, thisArg: callback이 호출될때 this로 사용할 객체이고 []가 붙은 것은 Optional값이다.
+```javascript
+    const arr = [5, 12, 8, 130, 44];
+    const found = arr.find(val => val > 10);
+    console.log(found);//12
+```
+- `includes(valueToFind[, fromIndex])`
+    - 특정 값이 배열에 존재하면 true, 아니면 false를 반환한다.
+    - valueToFind : 배열에서 찾을 요소값(대소문자를 구별한다), fromIndex: 검색을 시작할 인덱스로 배열의 크기보다 큰 인덱스가 입력되는 경우 -1이 반환된다. 음수로 주어지면 배열 끝에서부터 offset값으로 사용되고, offset값이 배열의 크기보다 커지면 배열 전체를 탐색하는 기본 Case와 같다. []가 붙은 것은 Optional값이다.
+    - [제네릭 메소드로 사용된다.]()
+```javascript
+    [1, 2, 3].includes(2);     // true
+    [1, 2, 3].includes(4);     // false
+    [1, 2, 3].includes(3, 3);  // false
+    [1, 2, 3].includes(3, -1); // true
+    [1, 2, NaN].includes(NaN); // true
+```
 
 ### 5. 배열 요소에 대한 반복연산
-- `forEach(callback(val,idx,thisArr))`
-    - val: 현재원소값, idx: 현재 인덱스값, thisArr: 배열 본체
+- `forEach(callback(currentvalue[, index[, array]])[, thisArg])`
     - 모든 배열의 요소에 대해 callback 함수를 적용한다.
+    - currentvalue: 처리할 현재 요소, index: 처리할 현재 인덱스, array: forEach를 호출한 배열 본체, thisArg: callback이 호출될때 this로 사용할 객체이고 []가 붙은 것은 Optional값이다.
     - return 값은 undefined이다.
 ```javascript
     const arr = [1,2,3,4,5];
     const print = val => console.log(val);
     arr.forEach(val);//1,2,3,4,5
 ```
-- `map(callback(val,idx,thisArr))`
-    - val: 현재원소값, idx: 현재 인덱스값, thisArr: 배열 본체
+- `map(callback(currentValue[, index[, array]])[, thisArg])`
     - 모든 배열의 요소에 대해 callback함수를 적용한 새로운 배열을 반환한다.
+    - currentvalue: 처리할 현재 요소, index: 처리할 현재 인덱스, array: forEach를 호출한 배열 본체, thisArg: callback이 호출될때 this로 사용할 객체이고 []가 붙은 것은 Optional값이다.
 ```javascript
     const arr = [1,2,3];
     const res = arr.map(x=>x*x);
     console.log(res);//[1,4,9]
 ```
-- `filter(callback(val,idx,thisArr))`
-    - val: 현재원소값, idx: 현재 인덱스값, thisArr: 배열 본체
+- `filter(callback(element[, index[, array]])[, thisArg])`
     - 특정 조건을 만족하는 요소들의 배열을 반환한다.
+    - currentvalue: 처리할 현재 요소, index: 처리할 현재 인덱스, array: forEach를 호출한 배열 본체, thisArg: callback이 호출될때 this로 사용할 객체이고 []가 붙은 것은 Optional값이다.
 ```javascript
     const arr = [1,2,3];
     const res = arr.filter((v,i)=>(i%2===0&&v>2));
@@ -79,3 +103,4 @@
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
 - [JAVASCRIPT ARRAY METHOD 정리](http://blog.302chanwoo.com/2017/08/javascript-array-method/)
 - [[Javascript] map, reduce, filter를 유용하게 활용하는 15가지 방법](https://medium.com/@Dongmin_Jang/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd)
+- [MDN Web Docs](https://developer.mozilla.org/ko/)
