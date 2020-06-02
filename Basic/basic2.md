@@ -96,7 +96,7 @@ arr.push({name: wish});//[1,2,3,4,5,[],{name: wish}]
 arr.length;//7
 ```
 - [배열 vs 문자열](https://blog.naver.com/PostView.nhn?blogId=j_wish_&logNo=221888000033&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=false&from=postList)
-- [배열의 내장함수]()
+- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 >   다음장[기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
 

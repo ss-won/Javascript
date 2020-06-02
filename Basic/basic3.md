@@ -59,7 +59,7 @@
     - continue는 특정조건에서 반복을 건너 뛰고 다음 반복작업을 수행시킨다.
 </br>
 
->   다음장[배열 vs 문자열](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+>   다음장[배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
