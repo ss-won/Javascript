@@ -105,8 +105,58 @@
 ```
 
 - `reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
-- `every()`
-- `some()`
+    - 배열값에 대해 누산된 값을 반환한다.
+    - accumulator: 누산기(누산값반환), currentValue: 현재 배열 값, index: 현재 인덱스, array: 현재 배열, initialValue: 누산기의 초기값(default)
+```javascript
+    const array1 = [1, 2, 3, 4];
+    const reducer = (accumulator, currentValue) => accumulator + currentValue;
+    // 1 + 2 + 3 + 4
+    console.log(array1.reduce(reducer));//10
+    // 5 + 1 + 2 + 3 + 4
+    console.log(array1.reduce(reducer,5));//15
+```
+
+- `every(callback(element[, index[, array]])[, thisArg])`
+    - (AND개념) 특정 조건에 대해 모든 배열 요소가 만족하면 true를, 그렇지 않으면 false를 반환한다.
+    - element: 현재 요소, index: 현재 인덱스, array: 현재 배열, thisArg: callback이 호출될때 this로 사용할 객체
+```javascript
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    function ismulti(i){
+       return (i % 2 === 0);
+    }
+    console.log(arr.every(ismulti));//false
+```
+
+- `some(callback(element[, index[, array]])[, thisArg])`
+    - (OR개념) 특정 조건에 대해 true값이 나올때까지 배열 요소에 대해 callback 함수를 실행한다. 적어도 한개 이상의 truthy값이 존재하면 true, 그렇지 않으면 false를 반환한다.
+    - element: 현재 요소, index: 현재 인덱스, array: 현재 배열, thisArg: callback이 호출될때 this로 사용할 객체
+```javascript
+    let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    function ismulti(i) {
+       return (i % 2 === 0);
+    }
+    console.log(arr.some(ismulti)); //true
+```   
+
+### 6. 배열값 정렬
+- `reverse()`
+    - 배열의 순서를 뒤집은 배열을 반환한다. -> shallow copy개념이 아니기 때문에 실제 함수를 실행하는 배열에 영향을 준다.
+```javascript
+    let arr = [1, 2, 3];
+    arr.reverse();
+    console.log(arr);//[3, 2, 1]
+```
+
+- `sort([compareFunction])`
+    - 배열 순서를 결정하는 비교함수를 만족하는 형태로 정렬한 배열을 반환한다. -> 실제 함수를 실행하는 배열에 영향은 준다.
+    - compareFunction이 생략될 경우, 배열의 모든 값을 string 형태로 취급해 유니코드 순서로 정렬한다.
+```javascript
+    let arr = [13, 12, 11, 10, 5, 3, 2, 1];
+    arr.sort(function (a, b) {
+       return a - b;//오름차순
+    })
+    console.log(arr); // [ 1, 2, 3, 5, 10, 11, 12, 13 ]
+```
 
 </br>
 
@@ -115,5 +165,7 @@
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
 - [JAVASCRIPT ARRAY METHOD 정리](http://blog.302chanwoo.com/2017/08/javascript-array-method/)
-- [[Javascript] map, reduce, filter를 유용하게 활용하는 15가지 방법](https://medium.com/@Dongmin_Jang/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd)
 - [MDN Web Docs](https://developer.mozilla.org/ko/)
+
+## Recommand
+- [[Javascript] map, reduce, filter를 유용하게 활용하는 15가지 방법](https://medium.com/@Dongmin_Jang/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd)
