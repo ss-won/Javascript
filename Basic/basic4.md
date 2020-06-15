@@ -34,6 +34,15 @@
 ```
 
 ### 3. 다수의 배열 병합하기
+- `concat([value1[, value2[, ...[, valueN]]])`
+    - 특정 value들을 array 뒤에 붙여 반환한다.
+    - 만약 특정 value가 주어지지 않는다면, 배열 자체를 shallow copy한 배열을 반환한다.
+```javascript
+    var arr = [1,2,3];
+    var arr2 = [4,5,6];
+    var arr3 = arr.concat(arr2);
+    console.log(arr3);//[1,2,3,4,5,6]
+```
 
 ### 4. 특정 원소값(인덱스, 값) 찾기
 -  `indexOf(searchElement[, fromIndex])`
@@ -94,6 +103,10 @@
     const res = arr.filter((v,i)=>(i%2===0&&v>2));
     console.log(res);
 ```
+
+- `reduce(callback( accumulator, currentValue[, index[, array]] )[, initialValue])`
+- `every()`
+- `some()`
 
 </br>
 
