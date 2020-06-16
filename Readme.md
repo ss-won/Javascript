@@ -7,18 +7,18 @@
 >   > - [Design_Pattern](https://github.com/ss-won/Javascript#Design_Pattern)
 >   > - [For_Interview](https://github.com/ss-won/Javascript#For_Interview)
 
-## Basic 🧠
+## Basic 🧠 - Javascript 입문
 - [주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)
 - [값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
 - [기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
 - [프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 ## 알쓸자상 🧐 - 알아두면 쓸모있는 자바스크립트 (개발)상식
-- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/asjs1.md)
+- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
 
-## Driving_Principle 👣
+## Driving_Principle 👣 - Javascipt엔진의 구동원리
 
-## Design_Pattern ✍🏻
+## Design_Pattern ✍🏻 - Javascript 디자인 패턴
 
-## For_Interview 👩🏻‍💻
+## For_Interview 👩🏻‍💻 - 면접에서 꼭 물어보는 예상질문리스트
 
