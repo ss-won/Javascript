@@ -1,4 +1,4 @@
-# Basic Part
+# 알쓸신자 Part
 
 ## 배열내장함수(Array.prototype.methods)
 <br/>
