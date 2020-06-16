@@ -11,11 +11,14 @@
 - [주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)
 - [값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
 - [기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
-- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+- [프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+
+## 알쓸자상 🧐 - 알아두면 쓸모있는 자바스크립트 (개발)상식
+- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/asjs1.md)
 
 ## Driving_Principle 👣
 
 ## Design_Pattern ✍🏻
-`
+
 ## For_Interview 👩🏻‍💻
 

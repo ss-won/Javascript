@@ -17,7 +17,7 @@
 ### IDE
 - 브라우저 개발자 콘솔, Codesendbox, VSCODE+Nodejs, etc...
 
->   다음장[값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
+>   다음장[Basic: 값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)

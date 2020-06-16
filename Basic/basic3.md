@@ -43,23 +43,25 @@
     - `for문` : 보통 반복할 횟수가 정해져 있을때 쓴다.
         - 제한 조건이 false가 될때까지 반복자를 바꾸어 반복한다.
         - for of, for in문은 각각 객체의 key, value 반복시에 많이 사용한다.
+
     ```javascript
-    for(let i=0;i<=10;i++){ context };
+    for(let i=0; i<=10; i++){ context };
     for(let v of arr){ context };
     for(let key in obj){ context };
     ```
     - `while문(+do while)` : 정해진 횟수를 잘 모를때 많이 쓴다.(do while은 일단 먼저 실행 후 반복)
         - condition이 false일때까지 반복한다.
+
     ```javascript
-    while(condition){ context };
-    do{ context }while(condition);
+    while( condition ){ context };
+    do { context }while( condition );
     ```
 - `break`와 `continue`
     - break는 반복루프를 탈출해 반복을 중단시킨다.
     - continue는 특정조건에서 반복을 건너 뛰고 다음 반복작업을 수행시킨다.
 </br>
 
->   다음장[배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+>   다음장[Basic: 프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)

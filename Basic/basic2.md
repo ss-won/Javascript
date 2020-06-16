@@ -14,10 +14,10 @@
 ### 원시타입(Type)
 - `string`(문자열)
 ```javascript
-let str = 'string';
-let str2 = "string";
-let str3 = `This is
-            string`;
+    let str = 'string';
+    let str2 = "string";
+    let str3 = `This is
+                string`;
 ```
 - `number`(숫자)
     - 특수숫자로는 `NaN`(Not a Number), `Infinity`(무한대), `NegZero`(-0)가 있다.
@@ -54,25 +54,26 @@ console.log(obj.key1)//val1
      ```
     - 나머지패턴
     ```javascript
-    const { name, ...others }= { name:"sswon", age:25, alias:"wish" }
-    console.log(name, others)//"sswon" { age:25, alias:"wish" } 
+    const { name, ...others }= { name: "sswon", age: 25, alias: "wish" }
+    console.log( name, others )//"sswon" { age:25, alias:"wish" } 
     ```
 - 객체 내부 `this` -> 현재 속해있는 object를 가리킴
     - 단, `arrow function`의 경우 속해있는 object를 가리키지 못함
+    - [this 키워드 정복하기]()
 - getter, setter 함수
     - getter(접근), setter(할당) 함수는 여러개가 될 수 있다.
     - getter, setter 함수는 같을 수 있고 할당과 접근이 모두 실행된다.
     - 단, 속성명(key)과는 같을 수 없다.
 ```javascript
-const obj = {
-    _name: "abc",
-    get name(){
-        return this._name;
-    }
-    set name(str){
-        this._name = str;
+    const obj = {
+        _name: "abc",
+        get name() {
+            return this._name;
+        }
+        set name(str) {
+            this._name = str;
+        } 
     } 
-} 
 ```
 
 ### Array(배열)
@@ -96,9 +97,9 @@ arr.push({name: wish});//[1,2,3,4,5,[],{name: wish}]
 arr.length;//7
 ```
 - [배열 vs 문자열](https://blog.naver.com/PostView.nhn?blogId=j_wish_&logNo=221888000033&parentCategoryNo=&categoryNo=13&viewDate=&isShowPopularPosts=false&from=postList)
-- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/asjs1.md)
 
->   다음장[기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
+>   다음장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
