@@ -100,8 +100,8 @@ arr.length;//7
 - [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
 <br/>
 
->   이전장[Basic: 주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)<br/>
->   다음장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
+>   이전장 [Basic: 주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)<br/>
+>   다음장 [Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
