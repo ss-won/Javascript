@@ -100,7 +100,7 @@ arr.length;//7
 - [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
 <br/>
 
->   이전장[Basic: 주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)
+>   이전장[Basic: 주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)<br/>
 >   다음장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
 
 ## Reference

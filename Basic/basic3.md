@@ -61,7 +61,7 @@
     - continue는 특정조건에서 반복을 건너 뛰고 다음 반복작업을 수행시킨다.
 </br>
 
->   이전장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
+>   이전장[Basic: 값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)<br/>
 >   다음장[Basic: 프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 ## Reference

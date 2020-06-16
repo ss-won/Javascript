@@ -125,7 +125,7 @@ class Dog extends Animal {
 ```
 <br/>
 
->   이전장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
+>   이전장[Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)<br/>
 >   다음장[알쓸신자: 배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
 
 ## Reference
