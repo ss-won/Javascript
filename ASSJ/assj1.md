@@ -199,7 +199,7 @@
 </br>
 
 >   이전장 [Basic: 프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)<br/>
->   다음장 [알쓸신자: 문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/assj2.md)
+>   다음장 [알쓸신자: 문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj2.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
