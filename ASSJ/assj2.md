@@ -116,9 +116,9 @@
 - `string.concat(string2, string3[, ..., stringN])`
     - 합칠문자열이 뒤에 붙은 새로운 문자열이 반환된다.
 ```javascript
-let ex1 = "exam"
-let ex2 = "ple"
-console.log(ex1.concat(ex2));//example
+    let ex1 = "exam"
+    let ex2 = "ple"
+    console.log(ex1.concat(ex2));//example
 ```
 
 ### 10. 공백 제거하기
@@ -132,8 +132,8 @@ console.log(ex1.concat(ex2));//example
 
 </br>
 
->   이전장 [알쓸신자: 배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/assj1.md)<br/>
->   다음장 [알쓸신자: 삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASJS/assj3.md)
+>   이전장 [알쓸신자: 배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)<br/>
+>   다음장 [알쓸신자: 삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj3.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
