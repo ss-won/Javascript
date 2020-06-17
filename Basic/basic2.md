@@ -13,6 +13,7 @@
 
 ### 원시타입(Type)
 - `string`(문자열)
+    - [문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj2.md)
 ```javascript
     let str = 'string';
     let str2 = "string";
@@ -24,6 +25,7 @@
 - `null`, `undefined` : 없음을 의미하지만 역할이 다르다.
     - `null`은 Empty의 개념(falsy한 값이지만, type은 object의 일종이다.)
     - `undefined`는 '할당되지 않은'의 개념
+    - [Truthy and Falsy?](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj4.md)
 - `boolean` : true 또는 false만을 가지는 값의 타입이다.
 - `symbol` : ES6부터 등장한 타입으로, 보통 객체의 key값으로 쓰인다.
 - `object`(객체) : 특정 속성(key)값과 메서드들을(내부함수key값) 가진다.

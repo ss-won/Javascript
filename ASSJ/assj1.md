@@ -198,7 +198,7 @@
 ```
 </br>
 
->   이전장 [Basic: 기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)<br/>
+>   이전장 [Basic: 프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)<br/>
 >   다음장 [알쓸신자: 문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/assj2.md)
 
 ## Reference
