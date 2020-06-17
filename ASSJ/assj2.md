@@ -63,7 +63,7 @@
     console.log(ex1.lastIndexOf("x"));//1
 ```
  
-### 5. 특정문자열 찾아 치환하기 */
+### 5. 특정문자열 찾아 치환하기
 - `string.replace(regexp|substr, newSubstr|function)` 
     - 어떤 패턴에 일치하는 일부 또는 모든 부분이 교체된 새로운 문자열을 반환한다.
     - regexp or substr (pattern) => replacement 문자열로 치환된다. 단, 치환할 특정 문자열이 여러번 나타나는 경우 최초에 발견된 변수만 적용한다.
@@ -132,9 +132,10 @@ console.log(ex1.concat(ex2));//example
 
 </br>
 
->   이전장 [쓸신자: 배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/assj1.md)<br/>
+>   이전장 [알쓸신자: 배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASJS/assj1.md)<br/>
 >   다음장 [알쓸신자: 삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASJS/assj3.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
+- [MDN Web Docs - String](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String)
 
