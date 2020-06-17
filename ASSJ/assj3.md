@@ -4,7 +4,7 @@
 <br/>
 
 `condition ? exprIfTrue : exprIfFalse`
-- condition: 조건식, exprIfTrue: condition이 true인 경우 실행되는 문장, exprIfFalse: condition이 false인 경우 실행되는 문장이다.
+- `condition`: 조건식, `exprIfTrue`: condition이 true인 경우 실행되는 문장, `exprIfFalse`: condition이 false인 경우 실행되는 문장이다.
 - 조건부 삼항 연산자는 JavaScript에서 세 개의 피연산자를 취할 수 있는 유일한 연산자이다. 보통 if 명령문의 단축 형태로 쓰인다.
 - 다중 사용 가능하다. -> 가독성 안좋아서 잘 쓰지 않는다.
 - 코드 개행이 가능하다.
@@ -12,7 +12,7 @@
     let a = 0;
     a ? true : false;//false
 
-    var stop = false, age = 23;
+    let stop = false; let age = 23;
     age > 18 ? (
         //1
         alert("OK, you can go."),
