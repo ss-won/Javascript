@@ -19,7 +19,7 @@ const contrastArray = ( param ) => {
 const contrastArrayClear1 = ( param ) => ['e1', 'e2', 'e3', 'e4', 'e5'].includes(param);
 const contrastArrayClear2 = ( param ) => ['e1', 'e2', 'e3', 'e4', 'e5'].some(v => v === param);
 ```
-- Array 내장함수 includes를 사용해 인자들이 있는지 확인
+- Array 내장함수 includes를 사용해 인자들이 있는지 확인한다.
 
 > Case 2: switch, if문 등의 조건(case)에 따른 결과의 경우의 수가 많은 경우 -> `객체`를 활용한다.
 ```javascript
@@ -32,7 +32,7 @@ const print = ( param ) => {
     else return 0;
 }
 
-// 객체 활용하기(key-value의 형태 활용)
+// 객체 활용하기( key-value의 형태 활용 )
 const printbyObject1 = ( param ) => {
     const feature = {
         'e1': 'first',
@@ -44,7 +44,7 @@ const printbyObject1 = ( param ) => {
     return feature[param] || 0;
 }
 
-//객체 활용하기(함수의 활용)
+// 객체 활용하기( 함수의 활용 )
 const printbyObject2 = ( param ) => {
     const featureName = {
         e1: () => { console.log('first') },
