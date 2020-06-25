@@ -4,6 +4,7 @@
 >   [Contents]
 >   > - [Basic](https://github.com/ss-won/Javascript#basic----javascript-%EC%9E%85%EB%AC%B8)
 >   > - [알쓸신자](https://github.com/ss-won/Javascript#%EC%95%8C%EC%93%B8%EC%9E%90%EC%83%81----%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%93%B8%EB%AA%A8%EC%9E%88%EB%8A%94-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%9C%EB%B0%9C%EC%83%81%EC%8B%9D)
+>   > - [Asynchronous_Processing]()
 >   > - [Driving_Principle](https://github.com/ss-won/Javascript#driving_principle----javascipt%EC%97%94%EC%A7%84%EC%9D%98-%EA%B5%AC%EB%8F%99%EC%9B%90%EB%A6%AC)
 >   > - [Design_Pattern](https://github.com/ss-won/Javascript#design_pattern----javascript-%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4)
 >   > - [For_Interview](https://github.com/ss-won/Javascript#for_interview----%EB%A9%B4%EC%A0%91%EC%97%90%EC%84%9C-%EA%BC%AD-%EB%AC%BC%EC%96%B4%EB%B3%B4%EB%8A%94-%EC%98%88%EC%83%81%EC%A7%88%EB%AC%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8)
@@ -20,7 +21,16 @@
 - [삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj3.md)
 - [Truthy Falsy?](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj4.md)
 - [단축평가논리계산법](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj5.md)
-- [간결한 조건문 만들기](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
+- [조건문 대체하기](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
+- [비구조화 할당](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj7.md)
+- [spread and rest](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj8.md)
+- [스코프(scope)와 호이스팅(Hoisting)](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj9.md)
+
+## Asynchronous_Processing 🏃🏻‍♀️
+- [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
+- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
+- [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
+- [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md)
 
 ## Driving_Principle 👣 - Javascipt 엔진의 구동원리
 
