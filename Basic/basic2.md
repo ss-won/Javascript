@@ -33,14 +33,17 @@
 ### Function(함수)
 - 특정 로직을 재사용하기 위해 구현한 코드의 한 형태로 object이다.
 ```javascript
-function funName(params) { context }
+function funName( params ) { context }
+const arrowFunction = ( params ) => { context }
+const default_params = ( params = defaultValue ) { context }
 ```
 - return이 명시된 순간 함수가 종료된다.
 - `arrow funtion`(화살표함수)는 기존의 무명함수를 단축화해서 표기할 수 있다.
-    - (params) => { context }, (param) => example `=> example이 return 된다.`
+    - ( param ) => param `=> return param과 같다.`
 - 함수의 리턴값을 출력할때 변수명과 문장을 출력하는 방법
     - console.log("This is " + example);
     - console.log(``This is ${example}``);
+- 함수의 기본값은 파라미터에 `=`표기를 통해 지정한다.
 
 ### Object(객체)
 - 특정 속성과 메서드를 정의한 형태로 key속성으로 value에 접근 및 실행 할 수 있다.
