@@ -143,10 +143,10 @@
 
 - 계산된 속성 이름과 구조 분해
 ```javascript
-let key = "z";
-let { [key]: foo } = { z: "bar" };
-
-console.log(foo); // "bar"
+    let key = "z";
+    let { [key]: foo } = { z: "bar" };
+    
+    console.log(foo); // "bar"
 ```
 
 - 나머지(rest) 구문 비구조화 할당
