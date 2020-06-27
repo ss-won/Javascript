@@ -35,6 +35,7 @@
     - `default:`를 통해 어떠한 case에도 속하지 않을때 기본형으로 실행될 sentence를 설정할 수 있다.
     - case문이 끝날때마다 break를 통해 끝났음을 명시해 주어야 한다.
 
+
 ### 반복문
 <img src="https://t1.daumcdn.net/cfile/tistory/2344D93A582167802D" width="400" height="300" alt="반복문구조"></img></br> 
 > 이미지 출처 : 구글, 이미지 썸네일
@@ -45,16 +46,16 @@
         - for of, for in문은 각각 객체의 key, value 반복시에 많이 사용한다.
 
     ```javascript
-    for(let i=0; i<=10; i++){ context };
-    for(let v of arr){ context };
-    for(let key in obj){ context };
+        for(let i=0; i<=10; i++){ context };
+        for(let v of arr){ context };
+        for(let key in obj){ context };
     ```
     - `while문(+do while)` : 정해진 횟수를 잘 모를때 많이 쓴다.(do while은 일단 먼저 실행 후 반복)
         - condition이 false일때까지 반복한다.
 
     ```javascript
-    while( condition ){ context };
-    do { context }while( condition );
+        while( condition ){ context };
+        do { context }while( condition );
     ```
 - `break`와 `continue`
     - break는 반복루프를 탈출해 반복을 중단시킨다.
