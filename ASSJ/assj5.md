@@ -31,7 +31,7 @@
 </br>
 
 >   이전장 [알쓸신자: Truthy Falsy?](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj4.md)<br/>
->   다음장 [알쓸신자: 조건문 응용](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
+>   다음장 [알쓸신자: 조건문 대체하기](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
 
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)

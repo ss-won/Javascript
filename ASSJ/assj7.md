@@ -4,20 +4,24 @@
 <br/>
 
 - `비구조화 할당`__(Destructuring Assignment)__ 이란 무엇인가?
-    - 구조 분해 할당 구문(비구조화 할당)은 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 하는 JavaScript     표현식이다.
+
+    - 구조 분해 할당 구문(비구조화 할당)은 배열이나 객체의 속성을 해체하여 그 값을 개별 변수에 담을 수 있게 하는 JavaScript표현식이다.
+
     - 객체 및 배열의 리터럴식 선언처럼 즉석에서 쉽게 데이터 뭉치를 만들 수 있다.
     ```javascript
-    // 배열의 리터럴식 선언
-    const arr = [1, 2, 3, 4, 5];
+        // 배열의 리터럴식 선언
+        const arr = [1, 2, 3, 4, 5];
     ```
     - 비구조화 할당은 리터럴선언과 다르게 할당문의 좌변에서 사용하여, 원래 변수에서 어떤 값을 분해해 할당할지 정의한다.
+
     ```javascript
-    // 비구조화 할당의 예시
-    const x = [1, 2, 3, 4, 5];
-    const [y, z] = x;
-    console.log(y); // 1
-    console.log(z); // 2
+        // 비구조화 할당의 예시
+        const x = [1, 2, 3, 4, 5];
+        const [y, z] = x;
+        console.log(y); // 1
+        console.log(z); // 2
     ```
+
     - 구조 분해 할당은 Perl이나 Python 등 다른 언어가 가지고 있는 기능이다.
     - ES6 이후 자바스크립트에 적용되었다.
 
@@ -145,7 +149,7 @@
 ```javascript
     let key = "z";
     let { [key]: foo } = { z: "bar" };
-    
+
     console.log(foo); // "bar"
 ```
 
