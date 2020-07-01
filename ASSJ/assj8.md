@@ -76,7 +76,7 @@
 - Obejct.assign 메소드는 setters를 트리거하지만 전개구문은 그렇지 않다.(엄연히 둘은 다르다!) 
     - 같이 읽어보면 좋을 것 같은 게시물<br>
     (1) [Javascript - 접근자 프로퍼티(setter, getter)](https://velog.io/@bigbrothershin/JavaScript-%EC%A0%91%EA%B7%BC%EC%9E%90-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0-getter-setter)<br>
-    2. [객체를 쉽게 병합하는 assign 메서드](https://velog.io/@bathingape/%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EC%89%BD%EA%B2%8C-%EB%B3%91%ED%95%A9%ED%95%98%EB%8A%94-%EB%A9%94%EC%84%9C%EB%93%9C-Object.assign)
+    (2) [객체를 쉽게 병합하는 assign 메서드](https://velog.io/@bathingape/%EA%B0%9D%EC%B2%B4%EB%A5%BC-%EC%89%BD%EA%B2%8C-%EB%B3%91%ED%95%A9%ED%95%98%EB%8A%94-%EB%A9%94%EC%84%9C%EB%93%9C-Object.assign)
 
 2. 나머지구문(rest)
     - 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.
@@ -89,8 +89,8 @@
         console.log(sum(1, 2, 3, 4));//10
     ```
 >   __CASE__ : 파라미터와 인수
->   파라미터(parameter) = 함수를 호출할 때 인수로 전달된 값을 함수 내부에서 사용할 수 있게 해주는 변수
->   인수(argument) = 함수가 호출될 때 함수로 값을 전달해주는 변수
+>   > 파라미터(parameter) = 함수를 호출할 때 인수로 전달된 값을 함수 내부에서 사용할 수 있게 해주는 변수
+>   > 인수(argument) = 함수가 호출될 때 함수로 값을 전달해주는 변수
 - rest 파라미터와 인수(arguments)객체의 차이
         - rest 파라미터는 함수 표현에 정식으로 정의된 이름이 주어지지 않은 `유일한 대상`인 반면, 인수 객체는 함수로 전달된 모든 인수를 포함한다.
         - 인수 객체는 실제 배열이 아니지만, rest 파라미터는 Array 객체의 인스턴스값으로 Array의 내장 함수를 이용할 수 있다.
