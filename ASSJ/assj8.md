@@ -80,7 +80,8 @@
 <hr>
 
 ### 2. 나머지구문(rest)
-- 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.- 함수의 파라미터 또는 비구조화 할당에 이용한다.
+- 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.
+- 함수의 파라미터 또는 비구조화 할당에 이용한다.
 ```javascript
     function sum(...theArgs) {
         return theArgs.reduce((acc, cur) => acc + cur, 0);
