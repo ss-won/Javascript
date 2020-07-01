@@ -29,7 +29,8 @@
 >   __CASE__ 02: 배열리터럴과 문자열
 - 어떤 배열을 일부로 가지는 배열을 리터럴 선언할 수 있다.
     - `splice(), push(), concat() 등의 메소드를 대신할 수 있다.` 
-
+    <br>
+    
     ```javascript
         const parts = ['shoulders', 'knees'];
         const lyrics = ['head', ...parts, 'and', 'toes'];
@@ -38,7 +39,8 @@
 - 배열 복사가 가능하다.
     - `shallow copy`로 동작한다. 
     - 다차원 배열에서는 내부 객체가 원 배열을 참조하기 때문에 사용에 부적합하다.
-
+    <br>
+    
     ```javascript
        let arr1 = [1, 2, 3];
        let arr2 = [[1], [2], [3]];//다차원배열
@@ -52,7 +54,8 @@
     ```
 - 배열 연결을 더 쉽게 할 수 있다.
     - `concat()` 대체
-
+    <br>
+    
      ```javascript
         let arr1 = [0, 1, 2];
         let arr2 = [3, 4, 5];
@@ -60,7 +63,8 @@
         arr1 = [...arr1, ...arr2];//[0, 1, 2, 3, 4, 5]
     ```
     - `shift()`를 대신해 배열 시작지점에 배열의 값을 삽입한다.
-
+    <br>
+    
     ```javascript
         let arr1 = [0, 1, 2];
         let arr2 = [3, 4, 5];
@@ -71,6 +75,7 @@
 >   __CASE__ 03: 객체리터럴(ES8)
 - 객체 속성 전개를 할 수 있다.
 - 얕은 복사 또는 객체의 병합을 할때 Object.assign보다 더 짧은 문법을 이용해 만들 수 있다.
+<br>
 
 ```javascript
     const obj1 = { foo: 'bar', x: 42 };
@@ -89,7 +94,6 @@
 ### 2. 나머지구문(rest)
 - 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.
 - 함수의 파라미터 또는 비구조화 할당에 이용한다.
-
 ```javascript
     function sum(...theArgs) {
         return theArgs.reduce((acc, cur) => acc + cur, 0);
