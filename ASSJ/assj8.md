@@ -80,15 +80,14 @@
 <hr>
 
 ### 2. 나머지구문(rest)
-    - 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.
-    - 함수의 파라미터 또는 비구조화 할당에 이용한다.
-    ```javascript
-        function sum(...theArgs) {
-            return theArgs.reduce((acc, cur) => acc + cur, 0);
-        }
-        console.log(sum(1, 2, 3));//6
-        console.log(sum(1, 2, 3, 4));//10
-    ```
+- 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.- 함수의 파라미터 또는 비구조화 할당에 이용한다.
+```javascript
+    function sum(...theArgs) {
+        return theArgs.reduce((acc, cur) => acc + cur, 0);
+    }
+    console.log(sum(1, 2, 3));//6
+    console.log(sum(1, 2, 3, 4));//10
+```
 >   __CASE__ : 파라미터와 인수
 >   > 파라미터(parameter) = 함수를 호출할 때 인수로 전달된 값을 함수 내부에서 사용할 수 있게 해주는 변수<br>
 
