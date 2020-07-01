@@ -6,10 +6,11 @@
 전개구문(spread syntax)은 어떤 배열이나 객체의 엘리먼트들을 __확장__ 하고 나머지 구문은 엘리컨트들을 수집하여 __압축__ 한다.
 
 ### 1. 전개구문(spread syntax)
-    - 배열과 같이 반복이 가능한(iterable) 문자를 0개 이상의 인수(함수) 또는 요소(배열)로 확장하여 0개 이상의 key-value의 쌍인 객체로 __확장__ 시킬 수 있다.
+- 배열과 같이 반복이 가능한(iterable) 문자를 0개 이상의 인수(함수) 또는 요소(배열)로 확장하여 0개 이상의 key-value의 쌍인 객체로 __확장__ 시킬 수 있다.
 
 >   __CASE__ 01: 함수 호출
 - apply 메소드의 대체로 사용가능하다. (* apply는 일반적으로 배열의 elements를 함수의 인수로 사용하려 할때 사용)
+
 ```javascript
     function example(x,y,z){
         return x + y + z;
@@ -19,6 +20,7 @@
     example(...args);//10
 ```
 - new 연산자와 함께 사용할 수 있다.
+
 ```javascript
     const args = [1, 1, 2, 3, 4, 9, 5, 3, 4];
     let duplication = new Set[...args];//[1, 2, 3, 4, 9, 5]
@@ -27,6 +29,7 @@
 >   __CASE__ 02: 배열리터럴과 문자열
 - 어떤 배열을 일부로 가지는 배열을 리터럴 선언할 수 있다.
     - `splice(), push(), concat() 등의 메소드를 대신할 수 있다.` 
+
     ```javascript
         const parts = ['shoulders', 'knees'];
         const lyrics = ['head', ...parts, 'and', 'toes'];
@@ -35,6 +38,7 @@
 - 배열 복사가 가능하다.
     - `shallow copy`로 동작한다. 
     - 다차원 배열에서는 내부 객체가 원 배열을 참조하기 때문에 사용에 부적합하다.
+
     ```javascript
        let arr1 = [1, 2, 3];
        let arr2 = [[1], [2], [3]];//다차원배열
@@ -48,6 +52,7 @@
     ```
 - 배열 연결을 더 쉽게 할 수 있다.
     - `concat()` 대체
+
      ```javascript
         let arr1 = [0, 1, 2];
         let arr2 = [3, 4, 5];
@@ -55,6 +60,7 @@
         arr1 = [...arr1, ...arr2];//[0, 1, 2, 3, 4, 5]
     ```
     - `shift()`를 대신해 배열 시작지점에 배열의 값을 삽입한다.
+
     ```javascript
         let arr1 = [0, 1, 2];
         let arr2 = [3, 4, 5];
@@ -65,6 +71,7 @@
 >   __CASE__ 03: 객체리터럴(ES8)
 - 객체 속성 전개를 할 수 있다.
 - 얕은 복사 또는 객체의 병합을 할때 Object.assign보다 더 짧은 문법을 이용해 만들 수 있다.
+
 ```javascript
     const obj1 = { foo: 'bar', x: 42 };
     const obj2 = { foo: 'bax', x: 13 };
@@ -82,6 +89,7 @@
 ### 2. 나머지구문(rest)
 - 정해지지 않은 수(an indefinite number, 부정수) 인수들을 수집 후 __압축__ 하여 배열로 나타낼 수 있게 한다.
 - 함수의 파라미터 또는 비구조화 할당에 이용한다.
+
 ```javascript
     function sum(...theArgs) {
         return theArgs.reduce((acc, cur) => acc + cur, 0);
