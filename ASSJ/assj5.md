@@ -3,7 +3,7 @@
 ## 단축평가논리계산법
 <br/>
 
-1. `단축 평가 논리 계산법?`
+### `단축 평가 논리 계산법?`
 ```javascript 
     if(condition) return a else return b
 ``` 
