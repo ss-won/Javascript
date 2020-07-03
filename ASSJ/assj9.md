@@ -87,7 +87,7 @@
     - 위의 코드에서는 outer()의 내부 변수 x가 있지만, 렉시컬 특서에 의해 호출 스택과 관계없이 각각(this 제외)의 대응표를 정의된 환경의 소스코드 기준으로 정의하고 런타임에 그 대응표를 변경시키지 않는다.
     - 변수 x의 값을 출력하는 실행문에서, 변수 x를 찾을때까지 상위 환경을 반복 탐색한다.(null이 나올때까지) inner의 내부에는 x값이 undefined이므로 `-> 상위환경에서 선언된 x의 값을 참조하여 출력한다.`   
 
-- `var`는 <span style="color:red">function scope</span>이고 `let, const`는 <span style="color:blue">function scope</span>`block scope`이다.
+- `var`는 __function scope__ 이고 `let, const`는 __block scope__ 이다.
 <hr>
 
 ### 2. 호이스팅(Hoisting)
@@ -112,4 +112,4 @@
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
 - [Javscript : Scope의 이해](http://www.nextree.co.kr/p7363/)
-- []
+- [스코프(scope)](https://poiemaweb.com/js-scope)
