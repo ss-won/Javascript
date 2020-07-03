@@ -24,6 +24,7 @@
 
     - 구조 분해 할당은 Perl이나 Python 등 다른 언어가 가지고 있는 기능이다.
     - ES6 이후 자바스크립트에 적용되었다.
+<hr>
 
 >   __Case__ 01: `배열[array]`의 비구조화 할당
 - 기본 변수 할당
@@ -68,6 +69,7 @@
     console.log(ryan); // RYAN
     console.log(friends);//["APEACH", "TUBE"]
 ```
+<hr>
 
 >   __Case__ 02: `객체[Object]`의 비구조화 할당
 - 기본 변수 할당
