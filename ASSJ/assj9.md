@@ -49,7 +49,6 @@
 
 - `변수명 중복선언`을 허용한다.(단, var 한정이다.)
 > 기존 언어에서는 중복되는 변수를 사용할 수 없는 것에 비해 독특한 특징이라 볼 수 있다.
-> 변수의 형태, 중복 등과 관계 없이 자유롭게 변수를 할당할 수 있다.(var)
 
 - `var 키워드의 생략`할 수 있다. => __키워드가 설정되지 않은 변수__ 는 모두 `var`로 취급한다.
 ```javascript 
@@ -59,33 +58,37 @@
 
 - `렉시컬 스코프`를 따른다.
     - 함수 실행 시 유효범위를 함수 실행 환경이 아닌 함수 정의 환경으로 참조하는 특성이다.
+> __EXAMPLE__ 01
+```javascript
+    function f1(){  
+        var a= 10;
+        f2();
+    }
+    function f2(){  
+        return a;
+    }
+    f1();//Uncaught Reference Error : a is not defined
+```
 
-    ```javascript
-        function f1(){  
-            var a= 10;
-            f2();
-        }
-        function f2(){  
-            return a;
-        }
-        f1();//Uncaught Reference Error : a is not defined
-    ```
-    - f2()가 f1()내부에서 실행되지만, 렉시컬 특성에 의해 f1()의 실행환경을 따르는 것이 아니고, f2()가 정의된 환경을 보기 때문에 a가 선언되지 않아 참조 에러를 발생한다.
+- f2()가 f1()내부에서 실행되지만, 렉시컬 특성에 의해 f1()의 실행환경을 따르지 않고 f2()가 정의된 환경을 보기 때문에 a가 선언되지 않아 참조 에러가 발생한다.
 
-    ```javascript
-        var x = 'global';
-        function outer() {
-            var x = 'local';
-            inner();
-        }
-        function inner() {
-            console.log(x);
-        }
-        foo();//global
-        inner();//global
-    ```
-    - 위의 코드에서는 outer()의 내부 변수 x가 있지만, 렉시컬 특서에 의해 호출 스택과 관계없이 각각(this 제외)의 대응표를 정의된 환경의 소스코드 기준으로 정의하고 런타임에 그 대응표를 변경시키지 않는다.
-    - 변수 x의 값을 출력하는 실행문에서, 변수 x를 찾을때까지 상위 환경을 반복 탐색한다.(null이 나올때까지) inner의 내부에는 x값이 undefined이므로 `-> 상위환경에서 선언된 x의 값을 참조하여 출력한다.`   
+> __EXAMPLE__ 02
+```javascript
+    var x = 'global';
+    function outer() {
+        var x = 'local';
+        inner();
+    }
+    function inner() {
+        console.log(x);
+    }
+    foo();//global
+    inner();//global
+```
+- 위의 코드에서는 outer()의 내부 변수 x가 있지만, 렉시컬 특서에 의해 호출 스택과 관계없이 각각(this 제외)의대응표를 정의된 환경의 소스코드 기준으로 정의하고 런타임에 그 대응표를 변경시키지 않는다.
+
+- 변수 x의 값을 출력하는 실행문에서, 변수 x를 찾을때까지 상위 환경을 반복 탐색한다. 
+> inner의내부에는 x값이 undefined이므로 `-> 상위환경에서 선언된 x의 값을 참조하여 출력한다.`   
 
 - `var`는 __function scope__ 이고 `let, const`는 __block scope__ 이다.
 <hr>
@@ -102,6 +105,7 @@
 >   `babel`과 같은 `트랜스파일러`에 의해 let, const가 var로 바뀌는 환경에서는 호이스팅이 발생할 수 있음에 주의하고 코딩해야한다. 
 - 코드를 이해하기 어렵고, 유지보수가 어렵기 때문에 피하는 것이 좋다.
 > 따라서, 이를 해결하기 위해
+
     - 함수를 선언 후 함수 내용을 실행한다.
     - eslint같은 도구에서 검열을 해서 수정한다.
 </br>
