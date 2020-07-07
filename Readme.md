@@ -32,7 +32,7 @@
 - [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
 - [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md)
 
-## Driving_Principle 👣 - Javascipt 엔진의 구동원리
+## Driving_Principle 👣 - Javascript 엔진의 구동원리
 
 ## Design_Pattern ✍🏻 - Javascript 디자인 패턴
 
