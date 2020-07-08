@@ -3,6 +3,12 @@
 ## Promise
 <br/>
 
+### Promise가 등장한 계기
+
+### Promise?
+
+### Promise의 용어
+
 - 기존 비동기로 작업을 처리할 당시 callback을 이용했다. => 콜백 지옥 탄생!
 - new Promise((resolve, reject) => { });
 => resolve 성공했을때의 실행 함수, reject 실패했을때의 실행 함수
