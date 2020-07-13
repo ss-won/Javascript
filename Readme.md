@@ -26,7 +26,7 @@
 - [spread and rest](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj8.md)
 - [스코프(scope)와 호이스팅(Hoisting)](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj9.md)
 
-## Asynchronous_Processing 🏃🏻‍♀️
+## Asynchronous_Processing 🏃🏻‍♀️ - 비동기처리의 이해
 - [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
 - [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md) - 작성중
 - [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md) - 작성중
@@ -42,6 +42,6 @@
 - [Javascript Design Pattern - Proxy](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp3.md) - 작성예정
 - [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp4.md) - 작성예정
 
-## For_Interview 👩🏻‍💻 - 면접&코딩테스트에서 습득
+## For_Interview 👩🏻‍💻 - 면접과 코테에 나온다!
 - [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md)
 
