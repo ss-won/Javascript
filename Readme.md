@@ -28,16 +28,20 @@
 
 ## Asynchronous_Processing 🏃🏻‍♀️
 - [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
-- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
-- [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
-- [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md)
+- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md) - 작성중
+- [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md) - 작성중
+- [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md) - 작성중
 
 ## Driving_Principle 👣 - Javascript 엔진의 구동원리
+- [Javascript 엔진과 구동원리 - V8, Nodejs](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp1.md) - 작성예정
+- [Javascript의 가비지 콜렉터(GC)](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp2.md) - 작성예정
 
 ## Design_Pattern ✍🏻 - Javascript 디자인 패턴
+- [Javascript Design Pattern - Module](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp1.md) - 작성예정
+- [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp2.md) - 작성예정
+- [Javascript Design Pattern - Proxy](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp3.md) - 작성예정
+- [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp4.md) - 작성예정
 
-## For_Interview 👩🏻‍💻 - 면접에서 물어본 질문리스트
-- [호이스팅(Hoisting)]()
-- [클로저(Closure)]()
-- [ES6와 이전 버전을 혼용하는 이유?]()
+## For_Interview 👩🏻‍💻 - 면접&코딩테스트에서 습득
+- [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md)
 
