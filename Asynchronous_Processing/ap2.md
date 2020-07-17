@@ -5,6 +5,7 @@
 
 ### Promise가 등장한 계기
 - 기존 비동기로 작업을 처리할 당시 callback을 이용했다.
+<hr>
 
 ### Promise?
 `Promise`객체는, 
@@ -23,8 +24,9 @@
  영수증은IOU(차입증서)와 같은 역할을 한다. 언젠가는 구매한 햄버거를 준다는 `프라미스(약속)`이다.<br>
  이제 `영수증`이 햄버거를 대신하는 `독립적인 값(Time independent)` = `미랫값(Future value)`이다.<br>
  영수증에 적힌 주문번호가 호출되면, __1)햄버거를 받거나__ __2)재료소진으로 제공받을 수 없거나__(주문전에 재고파악이 안된며, 기타 경우의 수는 배제한다고 가정한다면)의 두가지 경우의 상황에 직면하게 될것이다.<br>
- 이는 곧 영수증 주문번호라는 <u>`미랫값(Promise)`은 `성공(Fulfillment)` 아니면 `실패(Rejection)`를 의미한다는 것을 알 수 있다.</u>
- 
+ 이는 곧 영수증 주문번호라는 __`미랫값(Promise)`은 `성공(Fulfillment)` 아니면 `실패(Rejection)`를 의미한다는 것을 알 수 있다.__
+<hr>
+
 ### Promise의 구조
 <img src="https://media.vlpt.us/images/_jouz_ryul/post/8b5708f4-366e-4527-a87e-302887e21af5/%E1%84%83%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%85%E1%85%A9%E1%84%83%E1%85%B3.png" alt="promise2" >
 </br>
@@ -35,15 +37,21 @@
 Promise는 비동기 연산이 종료된 이후의 결과값이나 실패 이유를 처리하기 위한 처리기를 연결해 사용한다. 프로미스를 사용하면 비동기 메서드에서 마치 동기 메서드처럼 값을 반환할 수 있다.__(callback과 다르게 제어권이 동기적 메서드 처럼 해당 코드의 호출부에 있다.)__ 다만 최종 결과를 반환하지는 않고, 대신 프로미스를 반환해서 미래의 어떤 시점에 결과를 제공한다.
 <br>
 
-Promise는 다음의 실행상태 중 하나를 반드시 만족한다.
+__Promise의 실행상태__
 - `대기(pending)`: 이행하거나 거부되지 않은 초기 상태.
 - `이행(fulfilled)`: 연산이 성공적으로 완료됨.
 - `거부(rejected)`: 연산이 실패함.
+<br>
 
-> 이행이나 거부될 때, 프로미스에 연결한 처리기는 그 프로미스의 then 메서드에 의해 대기열에 오른다. 이미 이행했거나 거부된 프로미스에 연결한 처리기도 호출하므로, 비동기 연산과 처리기 연결 사이에 경합 조건은 없다.<br/>
-> `Promise.prototype.then()`로 프라미스를 받아 이후 동작을 설정할 수 있다.
-> `Promise.prototype.catch()`로 함수실행 중 나타나는 에러를 잡아낼 수 있다.
-> `Promise.prototype.then()` 및 `Promise.prototype.catch()` 메서드의 반환 값은 다른 프로미스이므로, 서로 연결할 수 있다.
+__Promise의 연결__<br>
+<img src="https://mdn.mozillademos.org/files/8633/promises.png" alt="promise3"/><br>
+[이미지출처](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+- 이행이나 거부될 때, 프로미스에 연결한 처리기는 그 프로미스의 then 메서드에 의해 대기열에 오른다. 이미 이행했거나 거부된 프로미스에 연결한 처리기도 호출하므로, 비동기 연산과 처리기 연결 사이에 경합 조건은 없다.
+- `Promise.prototype.then()`로 프라미스를 받아 이후 동작을 설정할 수 있다.
+- `Promise.prototype.catch()`로 함수실행 중 나타나는 에러를 잡아낼 수 있다.
+- `Promise.prototype.then()` 및 `Promise.prototype.catch()` 메서드의 반환 값은 다른 프로미스이므로, 서로 연결할 수 있다.
+<br>
 
 ```javascript
     const minus = (num) => {
