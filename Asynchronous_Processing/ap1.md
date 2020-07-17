@@ -83,3 +83,4 @@
 ## Reference
 - [벨로퍼트와 함께하는 모던 자바스크립트](https://learnjs.vlpt.us/)
 - [JS 비동기 처리방식 - callback](https://velog.io/@dek1313/JS-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC%EB%B0%A9%EC%8B%9D)
+- [Async History](https://www.slideshare.net/NishchitDhanani/async-history-javascript)
