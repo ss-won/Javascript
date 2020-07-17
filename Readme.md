@@ -28,7 +28,7 @@
 
 ## Asynchronous_Processing 🏃🏻‍♀️ - 비동기처리의 이해
 - [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
-- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md) - 작성중
+- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
 - [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md) - 작성중
 - [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md) - 작성중
 
