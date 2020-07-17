@@ -27,7 +27,38 @@
 [이미지 출처](https://marlinbar.tistory.com/30)
 <br>
 
-- Javascript 실행엔진은 Single Thread이기 때문이다. `=> Call Stack이 하나밖에 없기 때문에, 한번에 하나의 작업만 처리할 수 있다.`
+- Javascript 실행엔진은 Single Thread이기 때문이다. 
+    - __Why ?__ `Call Stack이 하나밖에 없기 때문에, 한번에 하나의 작업만(single thread) 처리할 수 있다.`
+    
+- 동기적으로 작업이 끝날때까지 마냥 기다릴 수 없다.
+    - __Why ?__ 
+    1. 대기시간이 매우 길어길 수 있는 가능성이 있다.
+    2. 시간차 작업으로 인해 의도하지 않은 값이 도출될 수 있다.
+
+```javascript
+    /*  Example1 */
+    function addtotal(input){
+        let total = database.query();// It takes 50ms.
+        console.log(total + input);
+    }
+    
+    addtotal(10);//error
+```
+
+```javascript
+    /*  Example2 */
+    let num = 0;
+    function First(){
+        setTimeout(() => { num = 10 }, 2000);
+    }
+    functuon Second(){
+        First();
+        console.log(num / 2);
+    }
+    
+    Second()//0 (not 5)
+```
+> 따라서 비동기적인 처리가 필요하다. 
 
 - 비동기 처리의 작업의 예시
     - `jQuery의 ajax` or `Node.js의 fetch`
@@ -38,9 +69,8 @@
     - `암호화/복호화`
     - `setTimeout()` or `setInterval()` 등을 이용한 작업예약
 
-- 비동기 처리의 작업의 예시를 보면 동기적으로 작업이 끝날때까지 마냥 기다릴 수 없다. 대기시간이 매우 길어길 수 있는 가능성이 있어 들어오는 작업의 순서에 관계없이 처리해야하기 때문이다. 
 
-> 따라서 비동기적인 처리가 필요하다. 
+
 
 </br>
 
