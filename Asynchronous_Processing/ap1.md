@@ -51,7 +51,7 @@
     function First(){
         setTimeout(() => { num = 10 }, 2000);
     }
-    functuon Second(){
+    function Second(){
         First();
         console.log(num / 2);
     }
