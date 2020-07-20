@@ -23,7 +23,7 @@
 >   Case2 : 논리계산자가 `||`인 경우
 ```javascript 
     const example = () => {
-        return a && b;
+        return a || b;
     }
 ``` 
 - a가 __Falsy__ 하다면 => `return b` (뒤에 값의 여부에 따라 결정되기 때문)
