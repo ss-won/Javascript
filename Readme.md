@@ -42,6 +42,6 @@
 - [Javascript Design Pattern - Proxy](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp3.md) - 작성예정
 - [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp4.md) - 작성예정
 
-## For_Interview 👩🏻‍💻 - 면접과 코테에 나온다!
+## +⍺ 👩🏻‍💻 
 - [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md) - 작성예정
 
