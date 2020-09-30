@@ -10,38 +10,38 @@
 >   > - [For_Interview](https://github.com/ss-won/Javascript#for_interview----%EB%A9%B4%EC%A0%91%EA%B3%BC-%EC%BD%94%ED%85%8C%EC%97%90-%EB%82%98%EC%98%A8%EB%8B%A4)
 
 ## Basic 🧠 - Javascript 입문
-- [주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)
-- [값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
-- [기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
-- [프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
+- [X] [주요특징](https://github.com/ss-won/Javascript/blob/master/Basic/basic.md)
+- [X] [값과 타입](https://github.com/ss-won/Javascript/blob/master/Basic/basic2.md)
+- [X] [기본문법](https://github.com/ss-won/Javascript/blob/master/Basic/basic3.md)
+- [X] [프로토타입과 클래스](https://github.com/ss-won/Javascript/blob/master/Basic/basic4.md)
 
 ## 알쓸자상 🧐 - 알아두면 쓸모있는 자바스크립트 (개발)상식
-- [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
-- [문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj2.md)
-- [삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj3.md)
-- [Truthy Falsy?](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj4.md)
-- [단축평가논리계산법](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj5.md)
-- [조건문 대체하기](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
-- [비구조화 할당](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj7.md)
-- [spread and rest](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj8.md)
-- [스코프(scope)와 호이스팅(Hoisting)](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj9.md)
+- [X] [배열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj1.md)
+- [X] [문자열내장함수](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj2.md)
+- [X] [삼항연산자](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj3.md)
+- [X] [Truthy Falsy?](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj4.md)
+- [X] [단축평가논리계산법](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj5.md)
+- [X] [조건문 대체하기](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj6.md)
+- [X] [비구조화 할당](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj7.md)
+- [X] [spread and rest](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj8.md)
+- [X] [스코프(scope)와 호이스팅(Hoisting)](https://github.com/ss-won/Javascript/blob/master/ASSJ/assj9.md)
 
 ## Asynchronous_Processing 🏃🏻‍♀️ - 비동기처리의 이해
-- [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
-- [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
-- [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md) - 작성중
-- [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md) - 작성중
+- [X] [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
+- [X] [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
+- [ ] [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
+- [ ] [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md)
 
 ## Driving_Principle 👣 - Javascript 엔진의 구동원리
-- [Javascript 엔진과 구동원리 - V8, Nodejs](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp1.md) - 작성예정
-- [Javascript의 가비지 콜렉터(GC)](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp2.md) - 작성예정
+- [ ] [Javascript 엔진과 구동원리 - V8, Nodejs](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp1.md)
+- [ ] [Javascript의 가비지 콜렉터(GC)](https://github.com/ss-won/Javascript/blob/master/Driving_Principle/dp2.md)
 
 ## Design_Pattern ✍🏻 - Javascript 디자인 패턴
-- [Javascript Design Pattern - Module](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp1.md) - 작성예정
-- [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp2.md) - 작성예정
-- [Javascript Design Pattern - Proxy](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp3.md) - 작성예정
-- [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp4.md) - 작성예정
+- [ ] [Javascript Design Pattern - Module](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp1.md)
+- [ ] [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp2.md)
+- [ ] [Javascript Design Pattern - Proxy](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp3.md)
+- [ ] [Javascript Design Pattern - Event Delegation](https://github.com/ss-won/Javascript/blob/master/Design_Pattern/dp4.md)
 
 ## +⍺ 👩🏻‍💻 
-- [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md) - 작성예정
+- [ ] [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md) - 작성예정
 
