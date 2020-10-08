@@ -29,7 +29,7 @@
 ## Asynchronous_Processing 🏃🏻‍♀️ - 비동기처리의 이해
 - [X] [동기(Synchronous)와 비동기(Asynchronous)](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap1.md)
 - [X] [Promise](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap2.md)
-- [ ] [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
+- [X] [aync, await](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap3.md)
 - [ ] [Promise all, Promise race](https://github.com/ss-won/Javascript/blob/master/Asynchronous_Processing/ap4.md)
 
 ## Driving_Principle 👣 - Javascript 엔진의 구동원리
@@ -44,4 +44,7 @@
 
 ## +⍺ 👩🏻‍💻 
 - [ ] [Javascript 다차원 배열 만들기](https://github.com/ss-won/Javascript/blob/master/For_Interview/fi1.md) - 작성예정
-
+- [ ] [ES6 주요문법](https://github.com/ss-won/Javascript)
+- [ ] [ES7 주요문법](https://github.com/ss-won/Javascript)
+- [ ] [ES8 주요문법](https://github.com/ss-won/Javascript)
+- [ ] [ES9 주요문법](https://github.com/ss-won/Javascript)
